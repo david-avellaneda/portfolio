@@ -13,6 +13,9 @@ const nextConfig = {
     defaultLocale: "es",
     localeDetection: false,
   },
+  images: {
+    deviceSizes: [400, 600, 1000],
+  },
 };
 
 module.exports = nextConfig;
