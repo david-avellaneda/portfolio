@@ -1,13 +1,19 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import helpTheme from "@/helpers/helpTheme";
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html>
       <Head />
-      <body>
+      <body className="no-scroll scroll">
+        <script
+          dangerouslySetInnerHTML={{
+            __html: helpTheme,
+          }}
+        />
         <Main />
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
