@@ -1,0 +1,129 @@
+.container {
+  width: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.active {
+  width: 100%;
+  transition: background-color 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.box {
+  width: 80%;
+  height: 85%;
+  background-color: var(--background);
+  border-radius: 0.5rem;
+  position: relative;
+  transform: scale(0);
+}
+
+.active .box {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.close {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.close::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  background-color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close svg {
+  position: absolute;
+}
+
+.box {
+  position: relative;
+  bottom: -100%;
+}
+
+.active .box {
+  bottom: 0;
+}
+
+.box {
+  position: relative;
+  bottom: -100%;
+}
+
+.active .box {
+  bottom: 0;
+}
+
+@media (min-width: 370px) {
+  .close {
+    width: 2.4rem;
+    height: 2.4rem;
+    top: -1.2rem;
+  }
+
+  .close::before {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+/* Tablet */
+
+@media (min-width: 700px) {
+  .box {
+    width: 85%;
+  }
+}
+
+@media (min-width: 700px) and (min-height: 1100px) {
+  .close {
+    width: 3rem;
+    height: 3rem;
+    top: -1.5rem;
+  }
+
+  .close::before {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1000px) {
+  .close {
+    width: 2.2rem;
+    height: 2.2rem;
+    top: -1.1rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .close {
+    width: 2.4rem;
+    height: 2.4rem;
+    top: -1.2rem;
+  }
+}
