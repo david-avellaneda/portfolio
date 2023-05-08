@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Header from "@/components/Header";
 import Presentation from "@/components/Presentation";
 import SplashScreen from "@/components/SplashScreen";
@@ -10,6 +11,8 @@ import { useEffect, useState } from "react";
 export default function Home() {
   const router = useRouter();
   const { locale } = router;
+
+  // t = translation
   const t = locale === "en" ? en : es;
 
   const [theme, setTheme] = useState(undefined);
@@ -37,6 +40,7 @@ export default function Home() {
       />
       <main>
         <Presentation t={t.body.main.presentation} />
+        <About t={t.body.main.about} />
       </main>
     </>
   );
