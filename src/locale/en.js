@@ -91,6 +91,14 @@ export default {
               },
             ],
           },
+          modal2: {
+            title: "Work experience",
+            info: `During my career, I have had the opportunity to work on website development on both the frontend and backend sides, although my current main focus is on frontend development. I have worked with two different companies, where I have been in charge of designing, redesigning and developing the interfaces of their websites.<br /><br />On the frontend side, I have used various technologies and tools such as HTML, CSS, JavaScript, React and Next to build attractive and functional web pages. I have made sure that the pages are compatible with different browsers and devices, as I have also worked on optimizing their performance to improve the user experience. In this same portfolio there are projects for companies and personal projects that demonstrate my skills.<br /><br />Regarding the backend, I have used technologies such as Node.js, Express and MySQL, in order to create REST APIs. I have also worked on the integration of different systems and platforms so that applications can interact with other services.<br /><br />In summary, my experience in web page development has allowed me to acquire both frontend and backend skills, which has allowed me to fully understand how web applications work and how they can be improved to offer a better user experience. user.`,
+            img: {
+              src: "/about-me/experience/tech.png",
+              alt: "Animated people viewing statistics in virtual reality",
+            },
+          },
         },
       },
     },

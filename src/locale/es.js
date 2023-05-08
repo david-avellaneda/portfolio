@@ -96,20 +96,10 @@ export default {
           },
           modal2: {
             title: "Experiencia laboral",
-            info: `
-              Durante mi carrera, he tenido la oportunidad de trabajar en el desarrollo de páginas web tanto en el lado del frontend como en el backend, aunque mi enfoque principal actual está en el desarrollo frontend. He trabajado con dos empresas diferentes, donde me he encargado de diseñar, rediseñar y desarrollar las interfaces de sus sitios web.
-              <br />
-              <br />
-              En el lado del frontend, he utilizado diversas tecnologías y herramientas como HTML, CSS, JavaScript, React y Next para construir páginas web que sean atractivas y funcionales. Me he asegurado de que las páginas sean compatibles con diferentes navegadores y dispositivos, como también he trabajado en la optimización de su rendimiento para mejorar la experiencia del usuario. En este mismo portafolio se encuentran proyectos para empresas y proyectos personales que demuestran mis habilidades.
-              <br />
-              <br />
-              En cuanto al backend, he utilizado tecnologías como Node.js, Express y MySQL, con el fin de crear REST APIs. También he trabajado en la integración de diferentes sistemas y plataformas para que las aplicaciones puedan interactuar con otros servicios.
-              <br />
-              <br />
-              En resumen, mi experiencia en el desarrollo de páginas web me ha permitido adquirir habilidades tanto en el frontend como en el backend, lo que me ha permitido entender de manera integral cómo funcionan las aplicaciones web y cómo se pueden mejorar para ofrecer una mejor experiencia al usuario.`,
+            info: `Durante mi carrera, he tenido la oportunidad de trabajar en el desarrollo de páginas web tanto en el lado del frontend como en el backend, aunque mi enfoque principal actual está en el desarrollo frontend. He trabajado con dos empresas diferentes, donde me he encargado de diseñar, rediseñar y desarrollar las interfaces de sus sitios web.<br /><br />En el lado del frontend, he utilizado diversas tecnologías y herramientas como HTML, CSS, JavaScript, React y Next para construir páginas web que sean atractivas y funcionales. Me he asegurado de que las páginas sean compatibles con diferentes navegadores y dispositivos, como también he trabajado en la optimización de su rendimiento para mejorar la experiencia del usuario. En este mismo portafolio se encuentran proyectos para empresas y proyectos personales que demuestran mis habilidades.<br /><br />En cuanto al backend, he utilizado tecnologías como Node.js, Express y MySQL, con el fin de crear REST APIs. También he trabajado en la integración de diferentes sistemas y plataformas para que las aplicaciones puedan interactuar con otros servicios.<br /><br />En resumen, mi experiencia en el desarrollo de páginas web me ha permitido adquirir habilidades tanto en el frontend como en el backend, lo que me ha permitido entender de manera integral cómo funcionan las aplicaciones web y cómo se pueden mejorar para ofrecer una mejor experiencia al usuario.`,
             img: {
               src: "/about-me/experience/tech.png",
-              alt: "",
+              alt: "Personas animadas viendo estadísticas en realidad virtual",
             },
           },
         },
