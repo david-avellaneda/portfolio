@@ -1,5 +1,5 @@
 import styles from "./index.module.css";
-import Logo from "../../../public/logo-white.svg";
+import Logo from "../../../public/white-logo.svg";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { useCallback, useEffect, useState } from "react";
