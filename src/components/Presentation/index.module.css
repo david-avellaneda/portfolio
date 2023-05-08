@@ -1,0 +1,316 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../../public/presentation/david-avellaneda.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  width: var(--content-width);
+  max-width: var(--max-width);
+  min-height: inherit;
+  position: relative;
+  padding-block-start: 10rem;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.title span {
+  color: var(--primary);
+}
+
+.txt {
+  font-size: 1.6rem;
+  text-align: justify;
+  color: #fff;
+  line-height: 2.8rem;
+  margin-block: 3rem 4rem;
+}
+
+.btn {
+  width: 9rem;
+  height: 3.3rem;
+  font-size: 1.4rem;
+  background-color: var(--primary);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+  margin-block-end: 10rem;
+  cursor: pointer;
+}
+
+.btn a {
+  color: #fff;
+}
+
+.socialMedia {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 8%;
+}
+
+.icons {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerIcon {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10rem;
+  padding: 1rem;
+}
+
+.containerIcon svg {
+  fill: #000;
+}
+
+@media (min-width: 370px) {
+  .title {
+    font-size: 3.2rem;
+  }
+
+  .txt {
+    font-size: 1.7rem;
+    line-height: 3rem;
+    margin-block: 5rem 4rem;
+  }
+
+  .btn {
+    width: 10rem;
+    height: 3.6rem;
+    font-size: 1.5rem;
+  }
+
+  .containerIcon {
+    width: 4rem;
+    height: 4rem;
+    padding: 1.1rem;
+  }
+}
+
+@media (min-width: 400px) {
+  .content {
+    padding-block-start: 12rem;
+  }
+
+  .title {
+    font-size: 3.3rem;
+  }
+
+  .txt {
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    margin-block: 6rem 5rem;
+  }
+
+  .btn {
+    width: 11rem;
+    height: 3.8rem;
+    font-size: 1.6rem;
+  }
+
+  .containerIcon {
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 1.2rem;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 700px) {
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .txt {
+    width: 60%;
+    font-size: 1.9rem;
+    line-height: 3.5rem;
+  }
+
+  .btn {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.8rem;
+  }
+
+  .icons {
+    width: 40%;
+  }
+
+  .containerIcon {
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 1.2rem;
+  }
+}
+
+@media (min-width: 700px) and (min-height: 1100px) {
+  .content {
+    padding-block-start: 16rem;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .txt {
+    width: 70%;
+    font-size: 2.4rem;
+    line-height: 4rem;
+    margin-block-end: 7rem;
+  }
+
+  .btn {
+    width: 16rem;
+    height: 5rem;
+    font-size: 2.4rem;
+  }
+
+  .containerIcon {
+    width: 5.5rem;
+    height: 5.5rem;
+    padding: 1.4rem;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1000px) {
+  .txt {
+    width: 50%;
+    font-size: 1.9rem;
+    line-height: 3.5rem;
+    margin-block: 3rem 4rem;
+  }
+
+  .btn {
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .icons {
+    width: 30%;
+    max-width: 25rem;
+  }
+
+  .socialMedia {
+    bottom: 6%;
+  }
+
+  .containerIcon {
+    width: 4.2rem;
+    height: 4.2rem;
+    padding: 1.2rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .btn:hover,
+  .containerIcon:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (min-width: 1300px) {
+  .title {
+    font-size: 4.5rem;
+  }
+
+  .txt {
+    width: 40%;
+    font-size: 2.2rem;
+    line-height: 4rem;
+    margin-block: 4rem 6rem;
+  }
+
+  .btn {
+    width: 12rem;
+    height: 4.5rem;
+    font-size: 1.8rem;
+  }
+
+  .icons {
+    width: 30%;
+    max-width: 25rem;
+  }
+
+  .socialMedia {
+    bottom: 6%;
+  }
+
+  .containerIcon {
+    width: 4.2rem;
+    height: 4.2rem;
+    padding: 1.1rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .content {
+    padding-block-start: 16rem;
+  }
+
+  .title {
+    font-size: 4.7rem;
+  }
+
+  .txt {
+    font-size: 2.3rem;
+    line-height: 5rem;
+    margin-block: 5rem 7rem;
+  }
+
+  .btn {
+    width: 13rem;
+    height: 4.5rem;
+    font-size: 1.9rem;
+  }
+
+  .icons {
+    max-width: 30rem;
+  }
+
+  .containerIcon {
+    width: 5rem;
+    height: 5rem;
+    padding: 1.2rem;
+  }
+}

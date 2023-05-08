@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Presentation from "@/components/Presentation";
 import SplashScreen from "@/components/SplashScreen";
 import en from "@/locale/en";
 import es from "@/locale/es";
@@ -34,6 +35,9 @@ export default function Home() {
         t={t.body.header}
         lang={locale === "es" ? "es" : "en"}
       />
+      <main>
+        <Presentation t={t.body.main.presentation} />
+      </main>
     </>
   );
 }
