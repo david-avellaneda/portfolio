@@ -6,8 +6,12 @@ const nextConfig = {
       test: /\.svg$/,
       use: ["@svgr/webpack"],
     });
-
     return config;
+  },
+  i18n: {
+    locales: ["en", "es"],
+    defaultLocale: "es",
+    localeDetection: false,
   },
 };
 
