@@ -4,6 +4,7 @@ import ImageUploader from "../ImageUploader";
 import Modal from "../Modal";
 import { useState } from "react";
 import Studies from "../Studies";
+import Experience from "../Experience";
 
 const About = ({ t }) => {
   const { title, text, buttons, img, modalWindows } = t;
@@ -48,6 +49,9 @@ const About = ({ t }) => {
       </div>
       <Modal isOpen={isOpen.modal1} handleClose={handleClose} modal={0}>
         <Studies isOpen={isOpen.modal1} t={modal1} />
+      </Modal>
+      <Modal isOpen={isOpen.modal2} handleClose={handleClose} modal={1}>
+        <Experience isOpen={isOpen.modal2} t={modal2} />
       </Modal>
     </section>
   );
