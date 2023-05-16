@@ -6,12 +6,6 @@
   margin: 0 auto;
 }
 
-.content h2 {
-  font-size: 2rem;
-  text-align: center;
-  margin-block-end: 3rem;
-}
-
 .content p {
   font-size: 1.4rem;
   text-align: justify;
@@ -89,10 +83,6 @@
 }
 
 @media (min-width: 370px) {
-  .content h2 {
-    font-size: 2.2rem;
-  }
-
   .content p {
     font-size: 1.6rem;
   }
@@ -108,10 +98,6 @@
 }
 
 @media (min-width: 400px) {
-  .content h2 {
-    font-size: 2.3rem;
-  }
-
   .content p {
     font-size: 1.7rem;
   }
@@ -133,10 +119,6 @@
 /* Tablet */
 
 @media (min-width: 700px) {
-  .content h2 {
-    font-size: 2.4rem;
-  }
-
   .content p {
     font-size: 1.8rem;
   }
@@ -157,10 +139,6 @@
 }
 
 @media (min-width: 700px) and (min-height: 1100px) {
-  .content h2 {
-    font-size: 3rem;
-  }
-
   .content p {
     font-size: 2.4rem;
   }
@@ -195,10 +173,6 @@
     width: 45%;
   }
 
-  .content h2 {
-    margin-block-end: 2rem;
-  }
-
   .content p {
     font-size: 1.7rem;
   }
@@ -225,11 +199,6 @@
 }
 
 @media (min-width: 1300px) {
-  .content h2 {
-    font-size: 2.6rem;
-    margin-block-end: 2.5rem;
-  }
-
   .content p {
     font-size: 2rem;
   }
@@ -244,10 +213,6 @@
 }
 
 @media (min-width: 1600px) {
-  .content h2 {
-    font-size: 2.8rem;
-  }
-
   .content p {
     font-size: 2.1rem;
   }
