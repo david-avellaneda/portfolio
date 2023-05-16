@@ -196,6 +196,8 @@
   }
 }
 
+/* Tablet */
+
 @media (min-width: 700px) {
   .header {
     height: 8rem;
@@ -247,9 +249,9 @@
   }
 }
 
-@media (min-width: 600px) and (min-height: 900px) {
+@media (min-width: 700px) and (min-height: 1100px) {
   .header {
-    height: 11rem;
+    height: 10rem;
   }
 
   .header::before {
@@ -321,6 +323,8 @@
   }
 }
 
+/* Desktop */
+
 @media (min-width: 1000px) {
   .header nav {
     width: var(--content-width);
@@ -388,5 +392,29 @@
   .scrolled a,
   .scrolled select {
     color: var(--text);
+  }
+}
+
+@media (min-width: 1300px) {
+  .items a {
+    font-size: 1.7rem;
+  }
+
+  .langs a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .header .logo {
+    max-width: 20rem;
+  }
+
+  .items a {
+    font-size: 1.9rem;
+  }
+
+  .langs a {
+    font-size: 1.7rem;
   }
 }
