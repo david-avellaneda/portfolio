@@ -18,7 +18,9 @@ const ImageUploader = ({ src, alt, background, color }) => {
       },
       { threshold: 0.8 }
     );
+
     observer.observe(ref.current);
+
     return () => observer.disconnect();
   }, []);
 
@@ -31,31 +33,30 @@ const ImageUploader = ({ src, alt, background, color }) => {
   return (
     <div className={styles.container} ref={ref}>
       <div
-        className={styles.containerLoader}
+        className={styles.loader}
         style={{
-          display: isLoading ? "none" : "block",
-          backgroundColor: background ? background : "var(--elements)",
+          display: isLoading ? "none" : "flex",
+          background: background ? background : "var(--elements)",
         }}
       >
-        <div className={styles.loader}>
-          {Array.from({ length: 5 }, (_, index) => (
-            <div
-              key={index}
-              style={{ background: color ? color : "var(--text)" }}
-            ></div>
-          ))}
-        </div>
+        {!isLoading && (
+          <div
+            style={{
+              borderColor: color ? color : "var(--text)",
+            }}
+          ></div>
+        )}
       </div>
-      {isVisible && (
-        <Image
-          src={src}
-          alt={alt}
-          sizes="(min-width: 320px) 100vw, 100vw"
-          fill
-          quality={90}
-          onLoad={handleLoading}
-        />
-      )}
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        sizes="(min-width: 320px) 100vw, 100vw"
+        loading="lazy"
+        quality={90}
+        onLoad={handleLoading}
+        style={{ display: isVisible ? "flex" : "none" }}
+      />
     </div>
   );
 };
