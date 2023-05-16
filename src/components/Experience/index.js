@@ -9,7 +9,7 @@ const Experience = ({ t }) => {
       <h3>{title}</h3>
       <div className={`${styles.content} scroll`}>
         <p dangerouslySetInnerHTML={{ __html: info }} />
-        <div className={`${styles.image} image`}>
+        <div className={styles.image}>
           <ImageUploader
             src={img.src}
             alt={img.alt}

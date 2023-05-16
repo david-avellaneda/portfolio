@@ -17,7 +17,7 @@ const Studies = ({ t }) => {
                   <li key={info} dangerouslySetInnerHTML={{ __html: info }} />
                 ))}
               </ul>
-              <div className={`${styles.image} image`}>
+              <div className={styles.image}>
                 <ImageUploader src={card.img.src} alt={card.img.alt} />
               </div>
             </div>
