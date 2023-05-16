@@ -1,11 +1,10 @@
 import styles from "./index.module.css";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import WhiteLogo from "../../../public/white-logo.svg";
-import OriginalLogo from "../../../public/original-logo.svg";
+import Image from "next/image";
 
 const Header = ({ theme, setTheme, t, lang }) => {
-  const { img, items, modes } = t;
+  const { img, menuBtn, items, modes } = t;
 
   const [scrolled, setScrolled] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -62,22 +61,35 @@ const Header = ({ theme, setTheme, t, lang }) => {
       }`}
     >
       <nav>
-        {scrolled ? (
-          <div className={styles.logo}>
-            <OriginalLogo aria-label={img.alt} />
-          </div>
-        ) : (
-          <div className={styles.logo}>
-            {isOpen ? (
-              <OriginalLogo aria-label={img.alt} />
-            ) : (
-              <WhiteLogo aria-label={img.alt} />
-            )}
-          </div>
-        )}
+        <div className={styles.logo}>
+          <Image
+            src={img.whiteLogo.src}
+            alt={img.whiteLogo.alt}
+            style={{ display: !isOpen && !scrolled ? "block" : "none" }}
+            width={180}
+            height={70}
+          />
+          <Image
+            src={img.originalLogo.src}
+            alt={img.originalLogo.alt}
+            style={{ display: isOpen ? "block" : "none" }}
+            width={180}
+            height={70}
+          />
+          <Image
+            src={img.originalLogo.src}
+            alt={img.originalLogo.alt}
+            style={{ display: !isOpen && scrolled ? "block" : "none" }}
+            width={180}
+            height={70}
+          />
+        </div>
         <button
           onClick={handleClick}
           className={`${styles.iconMenu} ${isOpen ? styles.openMenu : ""}`}
+          aria-label={
+            isOpen ? menuBtn.arialLabel.close : menuBtn.arialLabel.open
+          }
         >
           <span></span>
           <span></span>
