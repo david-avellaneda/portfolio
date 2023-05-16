@@ -1,11 +1,9 @@
 import styles from "./index.module.css";
-import LinkedIn from "../../../public/icons/linkedin.svg";
-import Github from "../../../public/icons/github.svg";
-import Instagram from "../../../public/icons/instagram.svg";
 import Link from "next/link";
+import Image from "next/image";
 
 const Presentation = ({ t }) => {
-  const { title, name, text, button } = t;
+  const { title, name, text, button, socialMedia } = t;
 
   return (
     <section className={styles.container}>
@@ -22,27 +20,21 @@ const Presentation = ({ t }) => {
         </button>
         <div className={styles.socialMedia}>
           <div className={styles.icons}>
-            <Link
-              href="https://www.linkedin.com/in/david-santiago-avellaneda-montero-28260a274/"
-              target="_blank"
-              className={styles.containerIcon}
-            >
-              <LinkedIn />
-            </Link>
-            <Link
-              href="https://github.com/david-avellaneda"
-              target="_blank"
-              className={styles.containerIcon}
-            >
-              <Github />
-            </Link>
-            <Link
-              href="https://www.instagram.com/_santi.avellaneda_/"
-              target="_blank"
-              className={styles.containerIcon}
-            >
-              <Instagram />
-            </Link>
+            {socialMedia.map((el, index) => (
+              <Link
+                key={index}
+                href={el.link}
+                target="_blank"
+                className={styles.containerIcon}
+              >
+                <Image
+                  src={el.img.src}
+                  alt={el.img.alt}
+                  width={15}
+                  height={15}
+                />
+              </Link>
+            ))}
           </div>
         </div>
       </div>

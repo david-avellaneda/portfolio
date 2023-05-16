@@ -95,10 +95,6 @@
   padding: 1rem;
 }
 
-.containerIcon svg {
-  fill: #000;
-}
-
 @media (min-width: 370px) {
   .title {
     font-size: 3.2rem;
@@ -175,9 +171,8 @@
   }
 
   .containerIcon {
-    width: 4.5rem;
-    height: 4.5rem;
-    padding: 1.2rem;
+    width: 4.2rem;
+    height: 4.2rem;
   }
 }
 
