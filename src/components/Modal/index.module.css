@@ -40,6 +40,9 @@
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
+  outline: none;
+  background: transparent;
+  border: none;
 }
 
 .close::before {
@@ -55,8 +58,13 @@
   transform: translate(-50%, -50%);
 }
 
-.close svg {
+.close img {
+  width: 2rem;
+  height: 2rem;
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
 }
 
 .box {
@@ -85,10 +93,16 @@
   }
 
   .close::before {
-    width: 2rem;
-    height: 2rem;
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+
+  .close img {
+    width: 2.1rem;
+    height: 2.1rem;
   }
 }
+
 /* Tablet */
 
 @media (min-width: 700px) {
@@ -105,6 +119,11 @@
   }
 
   .close::before {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .close img {
     width: 2.5rem;
     height: 2.5rem;
   }

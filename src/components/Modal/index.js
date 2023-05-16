@@ -1,7 +1,8 @@
 import styles from "./index.module.css";
-import Remove from "../../../public/icons/remove.svg";
+import Image from "next/image";
 
-const Modal = ({ children, isOpen, handleClose, modal }) => {
+const Modal = ({ children, isOpen, handleClose, modal, t }) => {
+  const { closeBtn } = t;
   const handleBoxClick = (e) => e.stopPropagation();
 
   return (
@@ -10,9 +11,18 @@ const Modal = ({ children, isOpen, handleClose, modal }) => {
       onClick={() => handleClose(modal)}
     >
       <div className={styles.box} onClick={handleBoxClick}>
-        <div className={styles.close} onClick={() => handleClose(modal)}>
-          <Remove />
-        </div>
+        <button
+          className={styles.close}
+          onClick={() => handleClose(modal)}
+          aria-label={closeBtn.arialLabel}
+        >
+          <Image
+            src="/icons/remove.svg"
+            alt={closeBtn.img.alt}
+            width={20}
+            height={20}
+          />
+        </button>
         {children}
       </div>
     </div>
