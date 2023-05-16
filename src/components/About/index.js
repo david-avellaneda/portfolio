@@ -37,7 +37,7 @@ const About = ({ t }) => {
         </div>
       </div>
       <div className={styles.imageContainer}>
-        <div className={`${styles.image} image`}>
+        <div className={styles.image}>
           <ImageUploader
             src={hacker}
             alt={img.alt}
@@ -47,10 +47,20 @@ const About = ({ t }) => {
         </div>
         <p>{`"${img.text}"`}</p>
       </div>
-      <Modal isOpen={isOpen.modal1} handleClose={handleClose} modal={0}>
+      <Modal
+        isOpen={isOpen.modal1}
+        handleClose={handleClose}
+        modal={0}
+        t={modalWindows}
+      >
         <Studies isOpen={isOpen.modal1} t={modal1} />
       </Modal>
-      <Modal isOpen={isOpen.modal2} handleClose={handleClose} modal={1}>
+      <Modal
+        isOpen={isOpen.modal2}
+        handleClose={handleClose}
+        modal={1}
+        t={modalWindows}
+      >
         <Experience isOpen={isOpen.modal2} t={modal2} />
       </Modal>
     </section>
