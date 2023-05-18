@@ -7,7 +7,20 @@ export default {
   body: {
     header: {
       img: {
-        alt: "Logotipo de David Avellaneda",
+        originalLogo: {
+          src: "/original-logo.svg",
+          alt: "Logotipo de David Avellaneda con el color original",
+        },
+        whiteLogo: {
+          src: "/white-logo.svg",
+          alt: "Logotipo de David Avellaneda en color blanco",
+        },
+      },
+      menuBtn: {
+        arialLabel: {
+          open: "Abrir menú de navegación",
+          close: "Cerrar menú de navegación",
+        },
       },
       items: [
         {
@@ -38,16 +51,43 @@ export default {
         name: "David Avellaneda",
         text: "Soy un apasionado desarrollador con experiencia en la creación de sitios y aplicaciones web dinámicas utilizando tecnologías de vanguardia.",
         button: "Conóceme",
+        socialMedia: [
+          {
+            img: {
+              src: "/icons/linkedin.svg",
+              alt: "Logotipo de Linkedin en formato svg",
+            },
+            link: "https://www.linkedin.com/in/david-santiago-avellaneda-montero-28260a274/",
+          },
+          {
+            img: {
+              src: "/icons/github.svg",
+              alt: "Logotipo de Github en formato svg",
+            },
+            link: "https://github.com/david-avellaneda",
+          },
+          {
+            img: {
+              src: "/icons/instagram.svg",
+              alt: "Logotipo de Instagram en formato svg",
+            },
+            link: "https://instagram.com/_santi.avellaneda_?igshid=OTk0YzhjMDVlZA==",
+          },
+        ],
       },
       about: {
         title: "Sobre mí",
         text: "Me llamo David Santiago, tengo 18 años, originario de Bogotá, Colombia. Me apasiona el desarrollo de soluciones tecnológicas que mejoren la experiencia del usuario y ofrezcan resultados eficientes a los clientes.",
         buttons: ["Estudios", "Experiencia"],
         img: {
-          alt: "Hacker 3D",
+          alt: "Ilustración de hacker en 3D",
           text: "La tecnología está en constante evolución, y yo también lo estoy",
         },
         modalWindows: {
+          closeBtn: {
+            arialLabel: "Cerrar ventana modal",
+            img: { alt: "Cerrar o símbolo x" },
+          },
           modal1: {
             title: "Formación académica",
             cards: [
@@ -103,6 +143,21 @@ export default {
             },
           },
         },
+      },
+      skills: {
+        title: "Habilidades",
+        text: "Te presento algunas de mis aptitudes en el desarrollo web.",
+        skills: [
+          {
+            title: "Avanzado",
+            technologies: [
+              {
+                img: { src: "/icons/react.svg", alt: "" },
+                name: "React JS",
+              },
+            ],
+          },
+        ],
       },
     },
   },

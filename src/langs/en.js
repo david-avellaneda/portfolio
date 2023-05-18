@@ -7,7 +7,20 @@ export default {
   body: {
     header: {
       img: {
-        alt: "David Avellaneda logo",
+        originalLogo: {
+          src: "/original-logo.svg",
+          alt: "David Avellaneda logo with the original color",
+        },
+        whiteLogo: {
+          src: "/white-logo.svg",
+          alt: "David Avellaneda logo in white color",
+        },
+      },
+      menuBtn: {
+        arialLabel: {
+          open: "Open navigation menu",
+          close: "Close navigation menu",
+        },
       },
       items: [
         {
@@ -38,16 +51,40 @@ export default {
         name: "David Avellaneda",
         text: "I am a passionate developer with experience building dynamic web sites and applications using cutting edge technologies.",
         button: "Know me",
+        socialMedia: [
+          {
+            img: {
+              src: "/icons/linkedin.svg",
+              alt: "Linkedin logo in svg format",
+            },
+            link: "https://www.linkedin.com/in/david-santiago-avellaneda-montero-28260a274/",
+          },
+          {
+            img: { src: "/icons/github.svg", alt: "Github logo in svg format" },
+            link: "https://github.com/david-avellaneda",
+          },
+          {
+            img: {
+              src: "/icons/instagram.svg",
+              alt: "Instagram logo in svg format",
+            },
+            link: "https://instagram.com/_santi.avellaneda_?igshid=OTk0YzhjMDVlZA==",
+          },
+        ],
       },
       about: {
         title: "About me",
         text: "My name is David Santiago, I am 18 years old, originally from Bogotá, Colombia.. I am passionate about developing technological solutions that improve the user experience and offer efficient results to clients.",
         buttons: ["Studies", "Experience"],
         img: {
-          alt: "Hacker 3D",
+          alt: "Hacker 3D illustration",
           text: "Technology is constantly evolving, and so am I",
         },
         modalWindows: {
+          closeBtn: {
+            arialLabel: "Close modal window",
+            img: { alt: "Close or x symbol" },
+          },
           modal1: {
             title: "Educational credentials",
             cards: [
@@ -97,6 +134,19 @@ export default {
             img: {
               src: "/about-me/experience/tech.png",
               alt: "Animated people viewing statistics in virtual reality",
+            },
+          },
+        },
+      },
+      skills: {
+        title: "Skills",
+        text: "These are some of my web development skills.",
+        advanced: {
+          title: "Advanced",
+          technologies: {
+            tech: {
+              img: { src: "/icons/react.svg", alt: "" },
+              name: "React JS",
             },
           },
         },
