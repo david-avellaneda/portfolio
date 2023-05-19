@@ -2,7 +2,14 @@ import styles from "./index.module.css";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
-const ImageUploader = ({ src, alt, background, color }) => {
+const ImageUploader = ({
+  src,
+  alt,
+  widthDiv,
+  heightDiv,
+  background,
+  color,
+}) => {
   const [isVisible, setIsVisible] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -27,7 +34,7 @@ const ImageUploader = ({ src, alt, background, color }) => {
   const handleLoading = (e) => {
     isLoading
       ? setIsLoading(e.target.complete)
-      : setTimeout(() => setIsLoading(e.target.complete), 500);
+      : setTimeout(() => setIsLoading(e.target.complete), 400);
   };
 
   return (
@@ -43,6 +50,9 @@ const ImageUploader = ({ src, alt, background, color }) => {
           <div
             style={{
               borderColor: color ? color : "var(--text)",
+              width: widthDiv && widthDiv,
+              height: heightDiv && heightDiv,
+              border: widthDiv && heightDiv && "2.5px solid var(--text)",
             }}
           ></div>
         )}
@@ -50,7 +60,8 @@ const ImageUploader = ({ src, alt, background, color }) => {
       <Image
         src={src}
         alt={alt}
-        fill
+        width={150}
+        height={150}
         sizes="(min-width: 320px) 100vw, 100vw"
         loading="lazy"
         quality={90}
