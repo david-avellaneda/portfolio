@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Header from "@/components/Header";
 import Presentation from "@/components/Presentation";
+import Skills from "@/components/Skills";
 import SplashScreen from "@/components/SplashScreen";
 import en from "@/langs/en";
 import es from "@/langs/es";
@@ -41,6 +42,7 @@ export default function Home() {
       <main>
         <Presentation t={t.body.main.presentation} />
         <About t={t.body.main.about} />
+        <Skills t={t.body.main.skills} />
       </main>
     </>
   );
