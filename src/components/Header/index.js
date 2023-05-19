@@ -68,6 +68,7 @@ const Header = ({ theme, setTheme, t, lang }) => {
             style={{ display: !isOpen && !scrolled ? "block" : "none" }}
             width={180}
             height={70}
+            sizes="(min-width: 320px) 100vw, 100vw"
           />
           <Image
             src={img.originalLogo.src}
@@ -75,6 +76,7 @@ const Header = ({ theme, setTheme, t, lang }) => {
             style={{ display: isOpen ? "block" : "none" }}
             width={180}
             height={70}
+            sizes="(min-width: 320px) 100vw, 100vw"
           />
           <Image
             src={img.originalLogo.src}
@@ -82,6 +84,7 @@ const Header = ({ theme, setTheme, t, lang }) => {
             style={{ display: !isOpen && scrolled ? "block" : "none" }}
             width={180}
             height={70}
+            sizes="(min-width: 320px) 100vw, 100vw"
           />
         </div>
         <button
