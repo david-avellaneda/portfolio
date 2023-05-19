@@ -1,38 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio Web
 
-## Getting Started
+¡Bienvenido a mi portafolio web! Este proyecto, desarrollado con Next.js, es una representación visual de mi trabajo, habilidades y experiencia en el campo de desarrollo Frontend. Diseñado con un enfoque en la usabilidad y la estética, mi portafolio web ofrece un modo claro y oscuro, adaptándose a tus preferencias y asegurando una experiencia agradable para todos los usuarios.
 
-First, run the development server:
+## Características principales
+
+- **Modo claro y oscuro:** Disfruta de una experiencia visual cómoda en cualquier entorno, ya sea de día o de noche.
+- **Idiomas disponibles:** El portafolio está disponible tanto en inglés como en español para llegar a una audiencia más amplia y facilitar la comprensión.
+- **Responsive:** Mi portafolio web está diseñado para adaptarse a diferentes dispositivos y tamaños de pantalla, lo que garantiza una experiencia óptima tanto en computadoras de escritorio como en dispositivos móviles.
+
+## Tecnologías utilizadas
+
+- Next.js: Un framework de React que permite crear aplicaciones web rápidas y eficientes.
+- React: Una biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas.
+- React DOM: Proporciona métodos específicos del DOM que se pueden usar en la parte superior de la biblioteca React para interactuar con los elementos del DOM.
+- eslint: Herramienta de linting para JavaScript que te ayuda a mantener un código limpio y libre de errores.
+- eslint-config-next: Configuración de ESLint específica para proyectos de Next.js.
+- react-particles: Una biblioteca de partículas para React que permite crear efectos visuales atractivos y personalizados.
+- sharp: Un módulo Node.js para manipulación y procesamiento de imágenes.
+- tsparticles: Una biblioteca de partículas para la web que permite crear efectos visuales interactivos y animados.
+- @svgr/webpack: Una herramienta que permite importar archivos SVG como componentes React.
+
+## Cómo ejecutar localmente
+
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+1. Clona este repositorio en tu máquina local.
+2. Asegúrate de tener Node.js instalado.
+3. Abre una terminal en el directorio del proyecto.
+4. Ejecuta el siguiente comando para instalar las dependencias:
+
+```bash
+npm install
+```
+
+5. Ejecuta el siguiente comando para iniciar el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6. Abre tu navegador y visita http://localhost:3000 para ver el portafolio web en acción.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Visita mi sitio web
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+¡No dudes en visitar mi sitio web para explorar más sobre mi trabajo y proyectos!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Puedes acceder a mi sitio web haciendo clic [aquí](https://www.avellaneda.com).
