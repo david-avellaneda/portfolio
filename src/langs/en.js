@@ -8,11 +8,11 @@ export default {
     header: {
       img: {
         originalLogo: {
-          src: "/original-logo.svg",
+          src: "/original-logo.png",
           alt: "David Avellaneda logo with the original color",
         },
         whiteLogo: {
-          src: "/white-logo.svg",
+          src: "/white-logo.png",
           alt: "David Avellaneda logo in white color",
         },
       },
