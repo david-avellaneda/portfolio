@@ -141,15 +141,67 @@ export default {
       skills: {
         title: "Skills",
         text: "These are some of my web development skills.",
-        advanced: {
-          title: "Advanced",
-          technologies: {
-            tech: {
-              img: { src: "/icons/react.svg", alt: "" },
-              name: "React JS",
-            },
+        skills: [
+          {
+            title: "Advanced",
+            technologies: [
+              {
+                img: { src: "/icons/react.svg", alt: "react.js logo" },
+                name: "React JS",
+              },
+              {
+                img: { src: "/icons/nextjs.svg", alt: "next.js logo" },
+                name: "Next.js",
+              },
+              {
+                img: { src: "/icons/git.svg", alt: "Git logo" },
+                name: "Git",
+              },
+              {
+                img: { src: "/icons/github.svg", alt: "GitHub logo" },
+                name: "GitHub",
+              },
+            ],
           },
-        },
+          {
+            title: "Middle",
+            technologies: [
+              {
+                img: { src: "/icons/nodejs.svg", alt: "node.js logo" },
+                name: "Node.js",
+              },
+              {
+                img: { src: "/icons/expressjs.svg", alt: "express.js logo" },
+                name: "Express.js",
+              },
+              {
+                img: { src: "/icons/mysql.svg", alt: "MySQL logo" },
+                name: "MySQL",
+              },
+              {
+                img: { src: "/icons/sass.svg", alt: "SASS logo" },
+                name: "SASS",
+              },
+            ],
+          },
+          {
+            title: "Beginner",
+            technologies: [
+              {
+                img: { src: "/icons/webpack.svg", alt: "Webpack logo" },
+                name: "Webpack",
+              },
+              {
+                img: { src: "/icons/wordpress.svg", alt: "Wordpress logo" },
+                name: "WordPress",
+              },
+              {
+                img: { src: "/icons/bootstrap.svg", alt: "Bootstrap logo" },
+                name: "Bootstrap",
+              },
+            ],
+          },
+        ],
       },
     },
   },

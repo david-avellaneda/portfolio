@@ -152,8 +152,67 @@ export default {
             title: "Avanzado",
             technologies: [
               {
-                img: { src: "/icons/react.svg", alt: "" },
+                img: { src: "/icons/react.svg", alt: "Logotipo de react.js" },
                 name: "React JS",
+              },
+              {
+                img: { src: "/icons/nextjs.svg", alt: "Logotipo de next.js" },
+                name: "Next.js",
+              },
+              {
+                img: { src: "/icons/git.svg", alt: "Logotipo de Git" },
+                name: "Git",
+              },
+              {
+                img: { src: "/icons/github.svg", alt: "Logotipo de GitBub" },
+                name: "GitHub",
+              },
+            ],
+          },
+          {
+            title: "Intermedio",
+            technologies: [
+              {
+                img: { src: "/icons/nodejs.svg", alt: "Logotipo de node.js" },
+                name: "Node.js",
+              },
+              {
+                img: {
+                  src: "/icons/expressjs.svg",
+                  alt: "Logotipo de express.js",
+                },
+                name: "Express.js",
+              },
+              {
+                img: { src: "/icons/mysql.svg", alt: "Logotipo de MySQL" },
+                name: "MySQL",
+              },
+              {
+                img: { src: "/icons/sass.svg", alt: "Logotipo de SASS" },
+                name: "SASS",
+              },
+            ],
+          },
+          {
+            title: "Principiante",
+            technologies: [
+              {
+                img: { src: "/icons/webpack.svg", alt: "Logotipo de Webpack" },
+                name: "Webpack",
+              },
+              {
+                img: {
+                  src: "/icons/wordpress.svg",
+                  alt: "Logotipo de WordPress",
+                },
+                name: "WordPress",
+              },
+              {
+                img: {
+                  src: "/icons/bootstrap.svg",
+                  alt: "Logotipo de Bootstrap",
+                },
+                name: "Bootstrap",
               },
             ],
           },
