@@ -1,48 +1,48 @@
-# Portafolio Web
+# Avellaneda Portfolio
 
-¡Bienvenido a mi portafolio web! Este proyecto, desarrollado con Next.js, es una representación visual de mi trabajo, habilidades y experiencia en el campo de desarrollo Frontend. Diseñado con un enfoque en la usabilidad y la estética, mi portafolio web ofrece un modo claro y oscuro, adaptándose a tus preferencias y asegurando una experiencia agradable para todos los usuarios.
+Welcome to my web portfolio! This project, developed with Next.js, is a visual representation of my work, skills, and experience in the field of Frontend development. Designed with a focus on usability and aesthetics, my web portfolio offers both light and dark modes, adapting to your preferences and ensuring a pleasant experience for all users.
 
-## Características principales
+## Key Features
 
-- **Modo claro y oscuro:** Disfruta de una experiencia visual cómoda en cualquier entorno, ya sea de día o de noche.
-- **Idiomas disponibles:** El portafolio está disponible tanto en inglés como en español para llegar a una audiencia más amplia y facilitar la comprensión.
-- **Responsive:** Mi portafolio web está diseñado para adaptarse a diferentes dispositivos y tamaños de pantalla, lo que garantiza una experiencia óptima tanto en computadoras de escritorio como en dispositivos móviles.
+- **Light and Dark Mode:** Enjoy a comfortable visual experience in any environment, whether it's day or night.
+- **Available Languages:** The portfolio is available in both English and Spanish to reach a wider audience and facilitate understanding.
+- **Responsive:** My web portfolio is designed to adapt to different devices and screen sizes, ensuring an optimal experience on both desktop computers and mobile devices.
 
-## Tecnologías utilizadas
+## Technologies Used
 
-- Next.js: Un framework de React que permite crear aplicaciones web rápidas y eficientes.
-- React: Una biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas.
-- React DOM: Proporciona métodos específicos del DOM que se pueden usar en la parte superior de la biblioteca React para interactuar con los elementos del DOM.
-- eslint: Herramienta de linting para JavaScript que te ayuda a mantener un código limpio y libre de errores.
-- eslint-config-next: Configuración de ESLint específica para proyectos de Next.js.
-- react-particles: Una biblioteca de partículas para React que permite crear efectos visuales atractivos y personalizados.
-- sharp: Un módulo Node.js para manipulación y procesamiento de imágenes.
-- tsparticles: Una biblioteca de partículas para la web que permite crear efectos visuales interactivos y animados.
-- @svgr/webpack: Una herramienta que permite importar archivos SVG como componentes React.
+- Next.js: A React framework that allows for fast and efficient web application development.
+- React: A JavaScript library used to build interactive user interfaces.
+- React DOM: Provides specific DOM methods that can be used on top of the React library to interact with DOM elements.
+- eslint: A JavaScript linting tool that helps you maintain clean and error-free code.
+- eslint-config-next: ESLint configuration specific to Next.js projects.
+- react-particles: A particles library for React that allows for creating attractive and customized visual effects.
+- sharp: A Node.js module for image manipulation and processing.
+- tsparticles: A web particles library that enables creating interactive and animated visual effects.
+- @svgr/webpack: A tool that allows importing SVG files as React components.
 
-## Cómo ejecutar localmente
+## How to Run Locally
 
-Para ejecutar este proyecto localmente, sigue estos pasos:
+To run this project locally, follow these steps:
 
-1. Clona este repositorio en tu máquina local.
-2. Asegúrate de tener Node.js instalado.
-3. Abre una terminal en el directorio del proyecto.
-4. Ejecuta el siguiente comando para instalar las dependencias:
+1. Clone this repository to your local machine.
+2. Make sure you have Node.js installed.
+3. Open a terminal in the project directory.
+4. Run the following command to install the dependencies:
 
 ```bash
 npm install
 ```
 
-5. Ejecuta el siguiente comando para iniciar el servidor de desarrollo:
+5. Run the following command to start the development server:
 
 ```bash
 npm run dev
 ```
 
-6. Abre tu navegador y visita http://localhost:3000 para ver el portafolio web en acción.
+6. Open your browser and visit http://localhost:3000 to see the web portfolio in action.
 
-## Visita mi sitio web
+## Visit my website
 
-¡No dudes en visitar mi sitio web para explorar más sobre mi trabajo y proyectos!
+Feel free to visit my website to explore more about my work and projects!
 
-Puedes acceder a mi sitio web haciendo clic [aquí](https://www.avellaneda.com).
+You can access my website by clicking [here](https://www.avellaneda.com).
