@@ -8,39 +8,19 @@ const Header = ({ theme, setTheme, t, lang }) => {
 
   const [scrolled, setScrolled] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(undefined);
 
   const handleClick = () => setIsOpen(!isOpen);
 
   const handleThemeChange = (e) => setTheme(e.target.value);
 
   useEffect(() => {
-    function handleResize() {
-      if (window.innerWidth < 1000) {
-        setIsSmallScreen(true);
-      } else {
-        setIsOpen(false);
-        setIsSmallScreen(false);
-      }
+    if (isOpen !== undefined) {
+      isOpen
+        ? document.body.classList.add("no-scroll")
+        : document.body.classList.remove("no-scroll");
     }
-
-    window.addEventListener("resize", handleResize);
-    handleResize(); // llamamos la función en el montaje inicial para inicializar el estado
-
-    // limpiamos el event listener en el desmontaje
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  useEffect(() => {
-    function handleScroll() {
-      window.scrollY > 60 ? setScrolled(true) : setScrolled(false);
-    }
-
-    window.addEventListener("scroll", handleScroll);
-    handleScroll();
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [isOpen]);
 
   useEffect(() => {
     if (theme !== undefined) {
@@ -53,6 +33,33 @@ const Header = ({ theme, setTheme, t, lang }) => {
       }
     }
   }, [theme]);
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth < 1000) {
+        setIsSmallScreen(true);
+      } else {
+        setIsOpen(false);
+        setIsSmallScreen(false);
+      }
+    }
+
+    function handleScroll() {
+      window.scrollY > 60 ? setScrolled(true) : setScrolled(false);
+    }
+
+    window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll);
+
+    handleResize(); // llamamos la función en el montaje inicial para inicializar el estado
+    handleScroll();
+
+    // limpiamos los event listeners en el desmontaje
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <header
