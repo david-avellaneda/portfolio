@@ -15,10 +15,12 @@ const Header = ({ theme, setTheme, t, lang }) => {
   const handleThemeChange = (e) => setTheme(e.target.value);
 
   useEffect(() => {
-    if (isOpen !== undefined) {
-      isOpen
-        ? document.body.classList.add("no-scroll")
-        : document.body.classList.remove("no-scroll");
+    if (window.innerWidth < 1000) {
+      if (isOpen !== undefined) {
+        isOpen
+          ? document.body.classList.add("no-scroll")
+          : document.body.classList.remove("no-scroll");
+      }
     }
   }, [isOpen]);
 
