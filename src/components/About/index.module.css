@@ -7,7 +7,8 @@
 }
 
 .content p {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   text-align: justify;
   margin-block-end: 2.5rem;
 }
@@ -75,7 +76,7 @@
 }
 
 .imageContainer p {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: 500;
   font-style: italic;
@@ -85,15 +86,16 @@
 @media (min-width: 370px) {
   .content p {
     font-size: 1.6rem;
+    line-height: 3rem;
   }
 
   .buttons button {
     width: 9rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .imageContainer p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -104,7 +106,7 @@
 
   .buttons button {
     width: 10rem;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   .image {
@@ -112,7 +114,7 @@
   }
 
   .imageContainer p {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -121,6 +123,7 @@
 @media (min-width: 700px) {
   .content p {
     font-size: 1.8rem;
+    line-height: 3.5rem;
   }
 
   .buttons button {
@@ -174,15 +177,16 @@
   }
 
   .content p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   .buttons {
     margin: 0;
   }
 
-  .buttons button {
-    font-size: 1.6rem;
+  .buttons button,
+  .imageContainer p {
+    font-size: 1.5rem;
   }
 
   .imageContainer {
@@ -192,36 +196,26 @@
   .image {
     height: 22rem;
   }
-
-  .imageContainer p {
-    font-size: 1.6rem;
-  }
 }
 
 @media (min-width: 1300px) {
   .content p {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
-  .buttons button {
-    font-size: 1.8rem;
-  }
-
+  .buttons button,
   .imageContainer p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 
 @media (min-width: 1600px) {
   .content p {
-    font-size: 2.1rem;
-  }
-
-  .buttons button {
     font-size: 2rem;
   }
 
+  .buttons button,
   .imageContainer p {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 }

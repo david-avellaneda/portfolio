@@ -12,7 +12,7 @@
 
 .title p {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-block-end: 2rem;
 }
 
@@ -66,7 +66,7 @@
 
 @media (min-width: 370px) {
   .title p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .skillContainer h3 {
@@ -86,7 +86,7 @@
 
 @media (min-width: 400px) {
   .title p {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   .skillsContainer {
@@ -95,7 +95,7 @@
   }
 
   .skillContainer h3 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     margin-block-end: 2.5rem;
   }
 
@@ -118,7 +118,6 @@
   }
 
   .title p {
-    font-size: 1.7rem;
     margin-block-end: 2.2rem;
   }
 
@@ -130,21 +129,14 @@
     margin-block-end: 2rem;
   }
 
-  .skillContainer h3 {
-    font-size: 2.1rem;
-  }
-
   .skill {
     width: 30%;
+    height: 5.5rem;
     padding: 1rem 2.1rem;
   }
 
-  .skill p {
-    font-size: 1.8rem;
-  }
-
   .image {
-    width: 21%;
+    width: 18%;
   }
 }
 
@@ -158,12 +150,13 @@
   }
 
   .skill {
+    height: 6rem;
     padding: 1rem 2.3rem;
     margin-block-end: 3.5rem;
   }
 
   .skill p {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 
   .image {
@@ -175,7 +168,6 @@
 
 @media (min-width: 1000px) {
   .title p {
-    font-size: 1.7rem;
     margin-block-end: 4rem;
   }
 
@@ -196,7 +188,6 @@
   }
 
   .skillContainer h3 {
-    font-size: 2rem;
     margin-block-end: 1.5rem;
   }
 
@@ -208,23 +199,22 @@
   }
 
   .skill {
-    width: 45%;
+    width: 43%;
     height: 5.5rem;
     margin-block-end: 2.5rem;
   }
 
   .skill p {
     width: 70%;
-    font-size: 1.6rem;
     text-align: end;
   }
 
   .image {
-    width: 18%;
+    width: 16%;
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
   .title p {
     font-size: 1.8rem;
   }
@@ -235,7 +225,8 @@
   }
 
   .skillContainer h3 {
-    font-size: 2.1rem;
+    font-size: 2rem;
+    margin-block-end: 2rem;
   }
 
   .skill {
@@ -244,11 +235,11 @@
 
   .skill p {
     width: 70%;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 
   .image {
-    width: 20%;
+    width: 18%;
   }
 }
 
@@ -258,18 +249,14 @@
   }
 
   .skillContainer h3 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
 
   .skill {
-    height: 6rem;
+    height: 6.2rem;
   }
 
   .skill p {
-    font-size: 1.8rem;
-  }
-
-  .image {
-    width: 22%;
+    font-size: 1.9em;
   }
 }

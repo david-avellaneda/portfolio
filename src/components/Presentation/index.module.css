@@ -34,7 +34,7 @@
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -97,19 +97,19 @@
 
 @media (min-width: 370px) {
   .title {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 
   .txt {
-    font-size: 1.7rem;
-    line-height: 3rem;
+    font-size: 1.8rem;
+    line-height: 3.5rem;
     margin-block: 5rem 4rem;
   }
 
   .btn {
     width: 10rem;
-    height: 3.6rem;
-    font-size: 1.5rem;
+    height: 3.8rem;
+    font-size: 1.6rem;
   }
 
   .containerIcon {
@@ -121,81 +121,60 @@
 
 @media (min-width: 400px) {
   .content {
-    padding-block-start: 12rem;
+    padding-block-start: 11rem;
   }
 
   .title {
-    font-size: 3.3rem;
+    font-size: 3.1rem;
   }
 
   .txt {
-    font-size: 1.8rem;
-    line-height: 3.3rem;
-    margin-block: 6rem 5rem;
+    font-size: 1.9rem;
   }
 
   .btn {
-    width: 11rem;
-    height: 3.8rem;
-    font-size: 1.6rem;
-  }
-
-  .containerIcon {
-    width: 4.5rem;
-    height: 4.5rem;
-    padding: 1.2rem;
+    width: 11.5rem;
+    height: 4rem;
+    font-size: 1.7rem;
   }
 }
 
 /* Tablet */
 
 @media (min-width: 700px) {
-  .title {
-    font-size: 3.5rem;
-  }
-
   .txt {
-    width: 60%;
-    font-size: 1.9rem;
-    line-height: 3.5rem;
+    width: 70%;
+    margin-block: 4rem;
   }
 
   .btn {
-    width: 12rem;
-    height: 4rem;
-    font-size: 1.8rem;
+    margin-block-end: 12rem;
   }
 
   .icons {
     width: 40%;
   }
-
-  .containerIcon {
-    width: 4.2rem;
-    height: 4.2rem;
-  }
 }
 
-@media (min-width: 700px) and (min-height: 1100px) {
+@media (min-width: 700px) and (min-height: 1000px) {
   .content {
     padding-block-start: 16rem;
   }
 
   .title {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .txt {
-    width: 70%;
     font-size: 2.4rem;
     line-height: 4rem;
     margin-block-end: 7rem;
   }
 
   .btn {
-    width: 16rem;
-    height: 5rem;
-    font-size: 2.4rem;
+    width: 14rem;
+    height: 4.8rem;
+    font-size: 2.2rem;
   }
 
   .containerIcon {
@@ -209,16 +188,11 @@
 
 @media (min-width: 1000px) {
   .txt {
-    width: 50%;
-    font-size: 1.9rem;
-    line-height: 3.5rem;
-    margin-block: 3rem 4rem;
+    width: 45%;
+    line-height: 4rem;
   }
 
   .btn {
-    width: 10rem;
-    height: 3.5rem;
-    font-size: 1.5rem;
     transition: all 0.2s ease-in-out;
   }
 
@@ -227,14 +201,7 @@
     max-width: 25rem;
   }
 
-  .socialMedia {
-    bottom: 6%;
-  }
-
   .containerIcon {
-    width: 4.2rem;
-    height: 4.2rem;
-    padding: 1.2rem;
     transition: all 0.2s ease-in-out;
   }
 
@@ -244,31 +211,31 @@
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
+  .content {
+    padding-block-start: 14rem;
+  }
+
   .title {
-    font-size: 4.5rem;
+    font-size: 3.2rem;
   }
 
   .txt {
     width: 40%;
-    font-size: 2.2rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 4.5rem;
     margin-block: 4rem 6rem;
   }
 
   .btn {
-    width: 12rem;
+    width: 12.5rem;
     height: 4.5rem;
     font-size: 1.8rem;
   }
 
   .icons {
     width: 30%;
-    max-width: 25rem;
-  }
-
-  .socialMedia {
-    bottom: 6%;
+    max-width: 28rem;
   }
 
   .containerIcon {
@@ -284,28 +251,22 @@
   }
 
   .title {
-    font-size: 4.7rem;
+    font-size: 3.3rem;
   }
 
   .txt {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     line-height: 5rem;
     margin-block: 5rem 7rem;
   }
 
   .btn {
-    width: 13rem;
-    height: 4.5rem;
-    font-size: 1.9rem;
+    width: 14rem;
+    height: 5rem;
+    font-size: 2rem;
   }
 
   .icons {
     max-width: 30rem;
-  }
-
-  .containerIcon {
-    width: 5rem;
-    height: 5rem;
-    padding: 1.2rem;
   }
 }

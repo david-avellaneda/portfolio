@@ -4,7 +4,7 @@
 }
 
 .container h3 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   text-align: center;
   margin-block: 3rem;
 }
@@ -35,7 +35,7 @@
 
 @media (min-width: 370px) {
   .container h3 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 
   .content {
@@ -53,7 +53,7 @@
 
 @media (min-width: 400px) {
   .container h3 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   .content p {
@@ -68,16 +68,8 @@
 /* Tablet */
 
 @media (min-width: 700px) {
-  .container h3 {
-    font-size: 2.1rem;
-  }
-
   .content {
     padding-inline: 3rem;
-  }
-
-  .content p {
-    font-size: 1.6rem;
   }
 
   .image {
@@ -87,13 +79,14 @@
 
 @media (min-width: 700px) and (min-height: 1100px) {
   .container h3 {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     margin-block: 4rem;
   }
 
   .content p {
     font-size: 2rem;
     margin-block-end: 4rem;
+    line-height: 3.5rem;
   }
 
   .image {
@@ -106,7 +99,7 @@
 
 @media (min-width: 1000px) {
   .container h3 {
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
 
   .content {
@@ -115,12 +108,13 @@
 
   .content p {
     font-size: 1.6rem;
+    line-height: 3.2rem;
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
   .container h3 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
 
   .content {
@@ -133,7 +127,7 @@
   }
 
   .content p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .image {
@@ -159,10 +153,10 @@
 
 @media (min-width: 1600px) {
   .container h3 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .content p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
