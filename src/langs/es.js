@@ -218,6 +218,17 @@ export default {
           },
         ],
       },
+      wordSlider: [
+        `"Sé el cambio que quieres ver en el mundo digital"`,
+        `"Innovación sin seguridad es una ilusión"`,
+        `"Los límites solo existen en tu mente, no en la tecnología"`,
+        `"La pasión por la tecnología alimenta la motivación para superar cualquier obstáculo"`,
+        `"La curiosidad es la chispa que enciende el fuego de la creatividad"`,
+        `"No te conformes con seguir las tendencias, sé quien las crea"`,
+        `"La ciberseguridad es una carrera sin línea de meta"`,
+        `"En el mundo digital, el conocimiento es poder y la seguridad es protección"`,
+        `"El éxito en tecnología se basa en aprender de los fracasos y seguir adelante"`,
+      ],
     },
   },
 };

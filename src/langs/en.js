@@ -203,6 +203,17 @@ export default {
           },
         ],
       },
+      wordSlider: [
+        `"Be the change you want to see in the digital world"`,
+        `"Innovation without security is an illusion"`,
+        `"Limits exist only in your mind, not in technology"`,
+        `"Passion for technology fuels the motivation to overcome any obstacle"`,
+        `"Curiosity is the spark that ignites the fire of creativity"`,
+        `"Don't settle for following trends, be the one who creates them"`,
+        `"Cybersecurity is a never-ending race"`,
+        `"In the digital world, knowledge is power, and security is protection"`,
+        `"Success in technology is based on learning from failures and moving forward"`,
+      ],
     },
   },
 };
