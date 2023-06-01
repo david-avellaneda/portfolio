@@ -120,44 +120,23 @@
 
 /* Tablet */
 
-@media (min-width: 700px) {
-  .content p {
-    font-size: 1.8rem;
-    line-height: 3.5rem;
-  }
-
-  .buttons button {
-    width: 11rem;
-    font-size: 1.8rem;
-  }
-
-  .image {
-    height: 24rem;
-    margin-block-end: 2.5rem;
-  }
-
-  .imageContainer p {
-    font-size: 1.7rem;
-  }
-}
-
 @media (min-width: 700px) and (min-height: 1100px) {
   .content p {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
   }
 
   .buttons button {
     width: 12rem;
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .image {
-    height: 28rem;
-    margin-block-end: 3rem;
+    height: 26rem;
+    margin-block-end: 2.5rem;
   }
 
   .imageContainer p {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
 }
 
@@ -176,46 +155,30 @@
     width: 45%;
   }
 
-  .content p {
-    font-size: 1.6rem;
-  }
-
-  .buttons {
-    margin: 0;
-  }
-
-  .buttons button,
-  .imageContainer p {
-    font-size: 1.5rem;
-  }
-
   .imageContainer {
     margin: 0;
-  }
-
-  .image {
-    height: 22rem;
   }
 }
 
 @media (min-width: 1300px) {
   .content p {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 
   .buttons button,
   .imageContainer p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 }
 
 @media (min-width: 1600px) {
   .content p {
-    font-size: 2rem;
+    font-size: 1.9rem;
+    line-height: 3.5rem;
   }
 
   .buttons button,
   .imageContainer p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
