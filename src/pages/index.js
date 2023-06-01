@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Header from "@/components/Header";
 import Presentation from "@/components/Presentation";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import SplashScreen from "@/components/SplashScreen";
 import WordSlider from "@/components/WordSlider";
@@ -45,6 +46,7 @@ export default function Home() {
         <About t={t.body.main.about} />
         <Skills t={t.body.main.skills} />
         <WordSlider t={t.body.main.wordSlider} />
+        <Projects t={t.body.main.projects} />
       </main>
     </>
   );
