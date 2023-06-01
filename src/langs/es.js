@@ -229,6 +229,129 @@ export default {
         `"En el mundo digital, el conocimiento es poder y la seguridad es protección"`,
         `"El éxito en tecnología se basa en aprender de los fracasos y seguir adelante"`,
       ],
+      projects: {
+        title: "Projectos",
+        projects: [
+          {
+            img: {
+              src: "/projects/gmgf.jpg",
+              alt: "Vista previa de la página web del colegio Gimnasio Moderno Generación del Futuro",
+            },
+            title: "Gimnasio Moderno Generación del Futuro",
+            description:
+              "Página web para una escuela, brinda información sobre sus instalaciones, servicios, etc.",
+            tech: {
+              elements: "HTML - CSS - JS",
+              links: [
+                {
+                  href: "https://gm-gf.github.io/frontend/",
+                  arialLabel: "Vista previa del projecto",
+                  img: {
+                    src: "/icons/view.svg",
+                    alt: "Icono de un ojo",
+                  },
+                },
+              ],
+            },
+          },
+          {
+            img: {
+              src: "/projects/rest-countries-api.jpg",
+              alt: "Vista previa de la página web REST Countries API",
+            },
+            title: "REST Countries API",
+            description:
+              "Es un proyecto que brinda información de todos los países del mundo como población, idioma, moneda, etc.",
+            tech: {
+              elements: "React.js - Next.js 13",
+              links: [
+                {
+                  href: "https://rest-countries-api-david-avellaneda.vercel.app/",
+                  arialLabel: "Vista previa del projecto",
+                  img: {
+                    src: "/icons/view.svg",
+                    alt: "Icono de un ojo",
+                  },
+                },
+                {
+                  href: "https://github.com/santi-avellaneda/rest-countries-api",
+                  arialLabel: "Repositorio de GitHub del projecto",
+                  img: {
+                    src: "/icons/github.svg",
+                    alt: "Icono de un ojo",
+                  },
+                },
+              ],
+            },
+          },
+          {
+            img: {
+              src: "/projects/glpi-pepeganga.jpg",
+              alt: "Vista previa de la página web de GLPI de Pepe Ganga",
+            },
+            title: "GLPI - Pepe Ganga",
+            description:
+              "Personalización y rediseño de interfaz web. Es un recurso para resolver problemas tecnológicos y productos similares.",
+            tech: {
+              elements: "HTML - CSS - JS",
+              links: [
+                {
+                  href: "https://mesadeayuda.pepeganga.com/glpi/",
+                  arialLabel: "Vista previa del projecto",
+                  img: {
+                    src: "/icons/view.svg",
+                    alt: "Icono de un ojo",
+                  },
+                },
+              ],
+            },
+          },
+          {
+            img: {
+              src: "/projects/zabbix-pepeganga.jpg",
+              alt: "Vista previa de la página web de Zabbix de Pepe Ganga",
+            },
+            title: "Monitoreo Zabbix - Pepe Ganga",
+            description:
+              "Personalización y rediseño de interfaz web. Está diseñado para monitorizar y registrar el estado de varios servicios de red.",
+            tech: {
+              elements: "HTML - CSS - JS",
+              links: [
+                {
+                  href: "https://monitoreo.pepeganga.com/zabbix/",
+                  arialLabel: "Vista previa del projecto",
+                  img: {
+                    src: "/icons/view.svg",
+                    alt: "Icono de un ojo",
+                  },
+                },
+              ],
+            },
+          },
+          {
+            img: {
+              src: "/projects/mantis-pepeganga.jpg",
+              alt: "Vista previa de la página web de Mantis Bug Tracker de Pepe Ganga",
+            },
+            title: "Mantis Bug Tracker - Pepe Ganga",
+            description:
+              "Personalización y rediseño de interfaz web. Consiste en una solución completa para gestionar tareas en un equipo de trabajo.",
+            tech: {
+              elements: "HTML - CSS - JS",
+              links: [
+                {
+                  href: "https://mantis.pepeganga.com/login_page.php",
+                  arialLabel: "Vista previa del projecto",
+                  img: {
+                    src: "/icons/view.svg",
+                    alt: "Icono de un ojo",
+                  },
+                },
+              ],
+            },
+          },
+        ],
+      },
     },
   },
 };

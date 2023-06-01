@@ -214,6 +214,129 @@ export default {
         `"In the digital world, knowledge is power, and security is protection"`,
         `"Success in technology is based on learning from failures and moving forward"`,
       ],
+      projects: {
+        title: "Projects",
+        projects: [
+          {
+            img: {
+              src: "/projects/gmgf.jpg",
+              alt: "Preview of the website of the school Modern Gymnasium Generation of the Future",
+            },
+            title: "Gimnasio Moderno Generación del Futuro",
+            description:
+              "Web page for a school, provides information about its facilities, services, etc.",
+            tech: {
+              elements: "HTML - CSS - JS",
+              links: [
+                {
+                  href: "https://gm-gf.github.io/frontend/",
+                  arialLabel: "Projecto preview",
+                  img: {
+                    src: "/icons/view.svg",
+                    alt: "One eye ico",
+                  },
+                },
+              ],
+            },
+          },
+          {
+            img: {
+              src: "/projects/rest-countries-api.jpg",
+              alt: "REST Countries API web page preview",
+            },
+            title: "REST Countries API",
+            description:
+              "It is a project that provides information on all the countries of the world such as population, language, currency, etc.",
+            tech: {
+              elements: "React.js - Next.js 13",
+              links: [
+                {
+                  href: "https://rest-countries-api-david-avellaneda.vercel.app/",
+                  arialLabel: "Projecto preview",
+                  img: {
+                    src: "/icons/github.svg",
+                    alt: "One eye icon",
+                  },
+                },
+                {
+                  href: "https://github.com/santi-avellaneda/rest-countries-api",
+                  arialLabel: "Project's GitHub repository",
+                  img: {
+                    src: "/icons/view.svg",
+                    alt: "One eye icon",
+                  },
+                },
+              ],
+            },
+          },
+          {
+            img: {
+              src: "/projects/glpi-pepeganga.jpg",
+              alt: "Preview of Pepe Ganga's GLPI website",
+            },
+            title: "GLPI - Pepe Ganga",
+            description:
+              "Web interface customization and redesign. It is a resource for solving technological problems and similar products.",
+            tech: {
+              elements: "HTML - CSS - JS",
+              links: [
+                {
+                  href: "https://mesadeayuda.pepeganga.com/glpi/",
+                  arialLabel: "Projecto preview",
+                  img: {
+                    src: "/icons/view.svg",
+                    alt: "One eye ico",
+                  },
+                },
+              ],
+            },
+          },
+          {
+            img: {
+              src: "/projects/zabbix-pepeganga.jpg",
+              alt: "Preview of Pepe Ganga's Zabbix website",
+            },
+            title: "Monitoreo Zabbix - Pepe Ganga",
+            description:
+              "Web interface customization and redesign. It is designed to monitor and log the status of various network services.",
+            tech: {
+              elements: "HTML - CSS - JS",
+              links: [
+                {
+                  href: "https://monitoreo.pepeganga.com/zabbix/",
+                  arialLabel: "Projecto preview",
+                  img: {
+                    src: "/icons/view.svg",
+                    alt: "One eye ico",
+                  },
+                },
+              ],
+            },
+          },
+          {
+            img: {
+              src: "/projects/mantis-pepeganga.jpg",
+              alt: "Preview of Pepe Ganga's Mantis Bug Tracker website",
+            },
+            title: "Mantis Bug Tracker - Pepe Ganga",
+            description:
+              "Web interface customization and redesign. It consists of a complete solution to manage tasks in a work team.",
+            tech: {
+              elements: "HTML - CSS - JS",
+              links: [
+                {
+                  href: "https://mantis.pepeganga.com/login_page.php",
+                  arialLabel: "Projecto preview",
+                  img: {
+                    src: "/icons/view.svg",
+                    alt: "One eye ico",
+                  },
+                },
+              ],
+            },
+          },
+        ],
+      },
     },
   },
 };
