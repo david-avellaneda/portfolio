@@ -21,8 +21,7 @@ const Skills = ({ t }) => {
                     <ImageUploader
                       src={tech.img.src}
                       alt={tech.img.alt}
-                      widthDiv="2rem"
-                      heightDiv="2rem"
+                      custom="medium"
                     />
                   </div>
                   <p>{tech.name}</p>

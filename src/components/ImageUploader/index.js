@@ -2,14 +2,7 @@ import styles from "./index.module.css";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
-const ImageUploader = ({
-  src,
-  alt,
-  widthDiv,
-  heightDiv,
-  background,
-  color,
-}) => {
+const ImageUploader = ({ src, alt, background, color, custom }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -34,7 +27,7 @@ const ImageUploader = ({
   const handleLoading = (e) => {
     isLoading
       ? setIsLoading(e.target.complete)
-      : setTimeout(() => setIsLoading(e.target.complete), 400);
+      : setTimeout(() => setIsLoading(e.target.complete), 300);
   };
 
   return (
@@ -43,27 +36,27 @@ const ImageUploader = ({
         className={styles.loader}
         style={{
           display: isLoading ? "none" : "flex",
-          background: background ? background : "var(--elements)",
+          background: background && background,
         }}
       >
-        {!isLoading && (
-          <div
-            style={{
-              borderColor: color ? color : "var(--text)",
-              width: widthDiv && widthDiv,
-              height: heightDiv && heightDiv,
-              border: widthDiv && heightDiv && "2.5px solid var(--text)",
-            }}
-          ></div>
-        )}
+        <div
+          className={`${styles.loaderContainer} ${custom && styles[custom]}`}
+        >
+          {!isLoading && (
+            <div
+              style={{
+                borderColor: color && color,
+              }}
+            ></div>
+          )}
+        </div>
       </div>
       <Image
         src={src}
         alt={alt}
-        width={150}
-        height={150}
+        width={200}
+        height={200}
         sizes="(min-width: 320px) 100vw, 100vw"
-        loading="lazy"
         quality={90}
         onLoad={handleLoading}
         style={{ display: isVisible ? "flex" : "none" }}

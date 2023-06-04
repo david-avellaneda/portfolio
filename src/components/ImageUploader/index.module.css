@@ -17,13 +17,27 @@
   z-index: 1;
 }
 
-.loader div {
-  width: 3.5rem;
-  height: 3.5rem;
-  border: 4px solid var(--text);
+.loaderContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loaderContainer div {
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid var(--text);
   border-left-color: transparent !important;
   border-radius: 50%;
   animation: spin 1s linear infinite;
+}
+
+.medium div {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-width: 2px;
 }
 
 @keyframes spin {

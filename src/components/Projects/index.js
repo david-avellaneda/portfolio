@@ -29,8 +29,8 @@ const Projects = ({ t }) => {
                     <ImageUploader
                       src={el.img.src}
                       alt={el.img.alt}
-                      widthDiv="1rem"
-                      heightDiv="1rem"
+                      background="#f5f5f5"
+                      custom="medium"
                     />
                   </Link>
                 ))}
