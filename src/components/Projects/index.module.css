@@ -22,7 +22,18 @@
   margin-block-end: 3.5rem;
 }
 
+.mainImage {
+  width: 100%;
+  max-height: 14rem;
+  margin-block-end: 2rem;
+}
+
+.mainImage div:nth-child(1) {
+  max-height: inherit;
+}
+
 .mainImage img {
+  max-height: inherit;
   border-radius: 0.5rem;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   margin-block-end: 1.8rem;
@@ -130,6 +141,10 @@
 /* Tablet */
 
 @media (min-width: 700px) {
+  .mainImage {
+    max-height: 18rem;
+  }
+
   .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -217,6 +232,10 @@
 }
 
 @media (min-width: 1600px) {
+  .mainImage {
+    max-height: 25rem;
+  }
+
   .projectTitle {
     font-size: 1.9rem;
   }
