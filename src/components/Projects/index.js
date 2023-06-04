@@ -12,7 +12,14 @@ const Projects = ({ t }) => {
         {projects.map((el, index) => (
           <div key={index} className={styles.project}>
             <div className={styles.mainImage}>
-              <ImageUploader src={el.img.src} alt={el.img.alt} />
+              <Link
+                key={index}
+                href={el.tech.links[0].href}
+                aria-label={el.arialLabel}
+                target="_blank"
+              >
+                <ImageUploader src={el.img.src} alt={el.img.alt} />
+              </Link>
             </div>
             <p className={styles.projectTitle}>{el.title}</p>
             <p className={styles.projectDescription}>{el.description}</p>
