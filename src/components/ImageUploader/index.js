@@ -33,23 +33,19 @@ const ImageUploader = ({ src, alt, background, color, custom }) => {
   return (
     <div className={styles.container} ref={ref}>
       <div
-        className={styles.loader}
+        className={`${styles.loader} ${custom ? styles[custom] : ""}`}
         style={{
           display: isLoading ? "none" : "flex",
           background: background && background,
         }}
       >
-        <div
-          className={`${styles.loaderContainer} ${custom && styles[custom]}`}
-        >
-          {!isLoading && (
-            <div
-              style={{
-                borderColor: color && color,
-              }}
-            ></div>
-          )}
-        </div>
+        {!isLoading && (
+          <div
+            style={{
+              borderColor: color && color,
+            }}
+          ></div>
+        )}
       </div>
       <Image
         src={src}
