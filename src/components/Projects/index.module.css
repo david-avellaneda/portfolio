@@ -29,7 +29,9 @@
 }
 
 .mainImage div:nth-child(1) {
+  width: fit-content;
   max-height: inherit;
+  margin: auto;
 }
 
 .mainImage img {
