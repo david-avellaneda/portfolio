@@ -278,7 +278,7 @@ export default {
                   arialLabel: "Repositorio de GitHub del projecto",
                   img: {
                     src: "/icons/github.svg",
-                    alt: "Icono de un ojo",
+                    alt: "Icono de GitHub",
                   },
                 },
               ],

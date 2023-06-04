@@ -263,7 +263,7 @@ export default {
                   arialLabel: "Project's GitHub repository",
                   img: {
                     src: "/icons/view.svg",
-                    alt: "One eye icon",
+                    alt: "Github icon",
                   },
                 },
               ],
