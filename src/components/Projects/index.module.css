@@ -22,20 +22,22 @@
   margin-block-end: 3.5rem;
 }
 
-.mainImage {
+.image {
   width: 100%;
-  max-height: 14rem;
+  height: auto;
   margin-block-end: 2rem;
 }
 
-.mainImage div:nth-child(2) {
-  width: fit-content;
-  max-height: inherit;
-  margin: auto;
+.image a div > div:nth-child(1) {
+  border-radius: 0.5rem;
 }
 
-.mainImage img {
-  max-height: inherit;
+.image a div div div {
+  border-radius: 50% !important;
+}
+
+.image img {
+  max-height: 17rem;
   border-radius: 0.5rem;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   margin-block-end: 1.8rem;
@@ -94,6 +96,10 @@
 }
 
 @media (min-width: 370px) {
+  .image img {
+    max-height: 18rem;
+  }
+
   .projectTitle {
     font-size: 1.6rem;
     margin-block-end: 1.4rem;
@@ -119,6 +125,10 @@
 }
 
 @media (min-width: 400px) {
+  .image img {
+    max-height: 19rem;
+  }
+
   .projectTitle {
     font-size: 1.7rem;
   }
@@ -143,10 +153,6 @@
 /* Tablet */
 
 @media (min-width: 700px) {
-  .mainImage {
-    max-height: 18rem;
-  }
-
   .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -194,11 +200,11 @@
     transform: scale(1.04);
   }
 
-  .mainImage img {
+  .image img {
     transition: all 0.2s ease-in-out;
   }
 
-  .project:hover .mainImage img {
+  .project:hover .image img {
     filter: brightness(1);
   }
 
@@ -210,6 +216,10 @@
 @media (min-width: 1400px) {
   .project {
     width: 95%;
+  }
+
+  .image img {
+    max-height: 18rem;
   }
 
   .projectTitle {
@@ -234,12 +244,12 @@
 }
 
 @media (min-width: 1600px) {
-  .mainImage {
-    max-height: 25rem;
-  }
-
   .projectTitle {
     font-size: 1.9rem;
+  }
+
+  .image img {
+    max-height: 21rem;
   }
 
   .projectDescription {

@@ -11,7 +11,7 @@ const Projects = ({ t }) => {
       <div className={styles.projects}>
         {projects.map((el, index) => (
           <div key={index} className={styles.project}>
-            <div className={styles.mainImage}>
+            <div className={styles.image}>
               <Link
                 key={index}
                 href={el.tech.links[0].href}
