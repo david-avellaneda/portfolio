@@ -15,7 +15,7 @@ const Projects = ({ t }) => {
               <Link
                 key={index}
                 href={el.tech.links[0].href}
-                aria-label={el.arialLabel}
+                aria-label={el.tech.links[0].arialLabel}
                 target="_blank"
               >
                 <ImageUploader src={el.img.src} alt={el.img.alt} />
