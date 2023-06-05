@@ -78,7 +78,7 @@
   grid-template-rows: auto;
 }
 
-[data-theme="dark"] .links {
+[data-theme="dark"] .links img {
   filter: invert(1);
 }
 

@@ -36,7 +36,7 @@ const Projects = ({ t }) => {
                     <ImageUploader
                       src={el.img.src}
                       alt={el.img.alt}
-                      background="#f5f5f5"
+                      background="var(--background)"
                       custom="medium"
                     />
                   </Link>
