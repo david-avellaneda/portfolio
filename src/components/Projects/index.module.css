@@ -192,6 +192,10 @@
   }
 
   .image img {
+    max-height: 19rem;
+  }
+
+  .image img {
     transition: all 0.2s ease-in-out;
   }
 
