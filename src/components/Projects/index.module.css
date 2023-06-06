@@ -213,10 +213,6 @@
     width: 95%;
   }
 
-  .image img {
-    max-height: 18rem;
-  }
-
   .projectTitle {
     font-size: 1.8rem;
   }
@@ -244,7 +240,7 @@
   }
 
   .image img {
-    max-height: 21rem;
+    max-height: 25rem;
   }
 
   .projectDescription {
