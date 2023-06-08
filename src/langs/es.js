@@ -124,7 +124,7 @@ export default {
               {
                 title: "Platzi",
                 info: [
-                  "Cursos de desarrollo web y seguridad informática. <a href='https://facebook.com'>Ver perfil</a>",
+                  "Cursos de desarrollo web y seguridad informática. <a href='https://platzi.com/p/davidsantiago/'>Ver perfil</a>",
                   "2020 - Actualmente",
                 ],
                 img: {
@@ -230,7 +230,7 @@ export default {
         `"El éxito en tecnología se basa en aprender de los fracasos y seguir adelante"`,
       ],
       projects: {
-        title: "Projectos",
+        title: "Proyectos",
         projects: [
           {
             img: {

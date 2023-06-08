@@ -118,7 +118,7 @@ export default {
               {
                 title: "Platzi",
                 info: [
-                  "Web development and computer security courses. <a href='https://facebook.com'>View profile</a>",
+                  "Web development and computer security courses. <a href='https://platzi.com/p/davidsantiago/'>View profile</a>",
                   "2020 - Now",
                 ],
                 img: {
