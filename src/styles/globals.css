@@ -98,8 +98,10 @@ span,
 button,
 select,
 option,
+label,
 input,
 input::placeholder,
+textarea,
 li {
   color: var(--text);
   font-family: var(--font-baloo_thambi);
