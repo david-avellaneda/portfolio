@@ -337,6 +337,68 @@ export default {
           },
         ],
       },
+      contact: {
+        title: "Contact",
+        inputs: [
+          {
+            label: {
+              for: "name",
+              value: "Full Name  *",
+            },
+            input: {
+              type: "text",
+              placeholder: "David Santiago Avellaneda",
+            },
+          },
+          {
+            label: {
+              for: "email",
+              value: "Email Address  *",
+            },
+            input: {
+              type: "email",
+              placeholder: "avellaneda.dev@gmail.com",
+            },
+          },
+        ],
+        textarea: {
+          label: {
+            for: "comment",
+            value: "Comments  *",
+          },
+          input: {
+            placeholder:
+              "Your comments are welcome, send me your ideas or suggestions to improve",
+          },
+        },
+        alerts: {
+          name: {
+            required: `The "Name" field is required`,
+            min: `The "Name" field must have a minimum of 10 characters`,
+            max: `The "Name" field must not exceed 30 characters`,
+            err: `The "Name" field only allows spaces, uppercase or lowercase letters with or without accent marks`,
+          },
+          email: {
+            required: `The "Email" field is required`,
+            max: `The "Email" field must not exceed 40 characters`,
+            err: `The "Email" field does not have a valid structure. user@example.com`,
+          },
+          comment: {
+            required: `The "Comments" field is required`,
+            min: `The "Comments" field must have a minimum of 4 characters`,
+            max: `The "Comments" field must not exceed 255 characters`,
+          },
+        },
+        submitBtn: {
+          arialLabel: "Submit form",
+          value: "Submit",
+        },
+        loading: "Sending form 😜",
+        response: {
+          true: "Message sent successfully 😎",
+          false: "Connection error",
+        },
+      },
     },
   },
 };

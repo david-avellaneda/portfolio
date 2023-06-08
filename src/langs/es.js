@@ -352,6 +352,68 @@ export default {
           },
         ],
       },
+      contact: {
+        title: "Contacto",
+        inputs: [
+          {
+            label: {
+              for: "name",
+              value: "Nombre completo  *",
+            },
+            input: {
+              type: "text",
+              placeholder: "David Santiago Avellaneda",
+            },
+          },
+          {
+            label: {
+              for: "email",
+              value: "Correo electrónico  *",
+            },
+            input: {
+              type: "email",
+              placeholder: "avellaneda.dev@gmail.com",
+            },
+          },
+        ],
+        textarea: {
+          label: {
+            for: "comment",
+            value: "Comentarios  *",
+          },
+          input: {
+            placeholder:
+              "Tus comentarios son bienvenidos, envíame tus ideas o sugerencias para mejorar",
+          },
+        },
+        alerts: {
+          name: {
+            required: `El campo "Nombre" es requerido`,
+            min: `El campo "Nombre" debe tener mínimo 10 caracteres`,
+            max: `El campo "Nombre" no debe ser mayor 30 caracteres`,
+            err: `El campo "Nombre" solo admite espacios, letras mayúsculas o minúsculas con o sin acento`,
+          },
+          email: {
+            required: `El campo "Email" es requerido`,
+            max: `El campo "Email" no debe ser mayor 40 caracteres`,
+            err: `El campo "Email" no contiene una estructura valida. user@example.com`,
+          },
+          comment: {
+            required: `El campo "Comentarios" es requerido`,
+            min: `El campo "Comentarios" debe tener mínimo 4 caracteres`,
+            max: `El campo "Comentarios" no debe ser mayor a 255 caracteres`,
+          },
+        },
+        submitBtn: {
+          arialLabel: "Enviar formulario",
+          value: "Enviar",
+        },
+        loading: "Enviando formulario 😜",
+        response: {
+          true: "Mensaje enviado con éxito 😎",
+          false: "Error de conexión",
+        },
+      },
     },
   },
 };
