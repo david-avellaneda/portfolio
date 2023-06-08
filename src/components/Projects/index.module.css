@@ -15,7 +15,7 @@
 
 .project {
   width: 100%;
-  background: var(--background);
+  background: var(--elements);
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
   padding: 1.5rem;
