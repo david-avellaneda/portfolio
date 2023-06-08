@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Presentation from "@/components/Presentation";
 import Projects from "@/components/Projects";
@@ -49,6 +50,7 @@ export default function Home() {
         <WordSlider t={t.body.main.wordSlider} />
         <Projects t={t.body.main.projects} />
         <Contact t={t.body.main.contact} />
+        <Footer t={t.body.footer} />
       </main>
     </>
   );

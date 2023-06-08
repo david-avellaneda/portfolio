@@ -1,0 +1,198 @@
+.container {
+  width: 100%;
+  height: auto;
+  padding-block-start: 3rem;
+  background: #292929;
+}
+
+.content {
+  width: var(--content-width);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.content p,
+.content p a {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.thanks {
+  text-align: justify;
+  margin-block-end: 3rem;
+}
+
+.info {
+  margin-block-end: 3rem;
+}
+
+.info p {
+  margin-block-end: 0.3rem;
+}
+
+.info p a {
+  color: var(--primary);
+}
+
+.socialMedia {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 3rem;
+}
+
+.image {
+  width: 18%;
+  max-width: 6rem;
+}
+
+.copyright {
+  width: 100%;
+  background: #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright p {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #fff;
+  padding-block: 2rem;
+}
+
+@media (min-width: 370px) {
+  .content p,
+  .content p a {
+    font-size: 1.5rem;
+  }
+
+  .info p {
+    margin-block-end: 0.4rem;
+  }
+
+  .copyright p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 400px) {
+  .content p,
+  .content p a {
+    font-size: 1.6rem;
+  }
+
+  .copyright p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 700px) {
+  .content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .info {
+    grid-column: 2 / 3;
+    padding-inline-start: 15%;
+  }
+  .socialMedia {
+    width: 60%;
+    grid-column: 1 / 3;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 700px) and (min-height: 1000px) {
+  .content p,
+  .content p a {
+    font-size: 1.7rem;
+  }
+
+  .copyright p {
+    font-size: 1.6rem;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1000px) {
+  .container {
+    padding-block-start: 4rem;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: 4rem;
+  }
+
+  .thanks {
+    width: 35%;
+  }
+
+  .info {
+    width: 20%;
+    padding-inline-start: 0;
+  }
+
+  .socialMedia {
+    width: 30%;
+  }
+
+  .thanks,
+  .info,
+  .socialMedia {
+    margin: 0;
+  }
+
+  .image {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    padding-block-start: 5rem;
+  }
+
+  .content {
+    margin-block-end: 5rem;
+  }
+
+  .content p,
+  .content p a {
+    font-size: 1.7rem;
+  }
+
+  .copyright p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    padding-block-start: 6rem;
+  }
+
+  .content {
+    margin-block-end: 6rem;
+  }
+
+  .content p,
+  .content p a {
+    font-size: 1.8rem;
+  }
+
+  .copyright p {
+    font-size: 1.7rem;
+  }
+}
