@@ -1,7 +1,7 @@
 .container {
   width: var(--content-width);
   max-width: var(--max-width);
-  padding-block: 3rem;
+  padding-block-start: 3rem;
   margin: 0 auto;
 }
 
@@ -149,6 +149,10 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 4%;
+  }
+
+  .project {
+    margin-block-end: 0;
   }
 }
 
