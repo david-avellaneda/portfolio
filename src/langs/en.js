@@ -400,5 +400,39 @@ export default {
         },
       },
     },
+    footer: {
+      thanks:
+        "Thank you for visiting my portfolio. If you're interested in working together or just want to say hello, feel free to get in touch with me. I'll be happy to talk to you!",
+      info: {
+        position: "Front End Developer",
+        email: {
+          value: "Email: ",
+          address: "avellaneda.dev@gmail.com",
+        },
+        location: "Bogotá D.C - Colombia",
+      },
+      socialMedia: [
+        {
+          arialLabel: "Facebook profile",
+          link: "https://www.facebook.com/david.avellaneda.56027",
+          img: { src: "/icons/facebook.png", alt: "Facebook logo" },
+        },
+        {
+          arialLabel: "Instagram profile",
+          link: "https://www.instagram.com/_santi.avellaneda_/",
+          img: { src: "/icons/instagram.png", alt: "Instagram logo" },
+        },
+        {
+          arialLabel: "Whatsapp number",
+          link: "https://api.whatsapp.com/send?phone=573158516080&text=¡Hola!%20¡Que%20gusto%20conocerte!",
+          img: { src: "/icons/whatsapp.png", alt: "Whatsapp logo" },
+        },
+        {
+          arialLabel: "Linkedin profile",
+          link: "https://www.linkedin.com/in/david-santiago-avellaneda-montero",
+          img: { src: "/icons/linkedin.png", alt: "Linkedin logo" },
+        },
+      ],
+    },
   },
 };

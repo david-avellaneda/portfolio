@@ -415,5 +415,39 @@ export default {
         },
       },
     },
+    footer: {
+      thanks:
+        "Agradezco tu visita a mi portafolio. Si estás interesado en trabajar juntos o simplemente quieres decir hola, no dudes en ponerte en contacto conmigo. ¡Estaré encantado de hablar contigo!",
+      info: {
+        position: "Desarrollador Front End",
+        email: {
+          value: "Email: ",
+          address: "avellaneda.dev@gmail.com",
+        },
+        location: "Bogotá D.C - Colombia",
+      },
+      socialMedia: [
+        {
+          arialLabel: "Perfil de Facebook",
+          link: "https://www.facebook.com/david.avellaneda.56027",
+          img: { src: "/icons/facebook.png", alt: "Logotipo de Facebook" },
+        },
+        {
+          arialLabel: "Perfil de Instagram",
+          link: "https://www.instagram.com/_santi.avellaneda_/",
+          img: { src: "/icons/instagram.png", alt: "Logotipo de Instagram" },
+        },
+        {
+          arialLabel: "Número de Whatsapp",
+          link: "https://api.whatsapp.com/send?phone=573158516080&text=¡Hola!%20¡Que%20gusto%20conocerte!",
+          img: { src: "/icons/whatsapp.png", alt: "Logotipo de Whatsapp" },
+        },
+        {
+          arialLabel: "Perfil de Linkedin",
+          link: "https://www.linkedin.com/in/david-santiago-avellaneda-montero",
+          img: { src: "/icons/linkedin.png", alt: "Logotipo de Linkedin" },
+        },
+      ],
+    },
   },
 };
