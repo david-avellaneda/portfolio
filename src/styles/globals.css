@@ -160,3 +160,26 @@ img {
     font-size: 2.4rem;
   }
 }
+
+/* Animation */
+.animate {
+  visibility: hidden;
+}
+
+.fadeInUp {
+  animation: fadeInUp;
+  animation-duration: 1.5s;
+  visibility: visible !important;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
