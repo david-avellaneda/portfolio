@@ -91,9 +91,9 @@ const Contact = ({ t }) => {
 
   return (
     <section className={styles.container} id="contact">
-      <h2>{title}</h2>
+      <h2 className="animate">{title}</h2>
       {response === null && (
-        <form onSubmit={handleSubmit}>
+        <form className="animate" onSubmit={handleSubmit}>
           <div className={styles.inputs}>
             {inputs.map((el, index) => (
               <div className={styles.inputContainer} key={index}>

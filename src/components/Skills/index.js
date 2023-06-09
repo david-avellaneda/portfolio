@@ -7,12 +7,12 @@ const Skills = ({ t }) => {
   return (
     <section className={styles.container} id="skills">
       <div className={styles.title}>
-        <h2>{title}</h2>
-        <p>{text}</p>
+        <h2 className="animate">{title}</h2>
+        <p className="animate">{text}</p>
       </div>
       <div className={styles.skillsContainer}>
         {skills.map((skill, index) => (
-          <div key={index} className={styles.skillContainer}>
+          <div key={index} className={`animate ${styles.skillContainer}`}>
             <h3>{skill.title}</h3>
             <div className={styles.skills}>
               {skill.technologies.map((tech, index) => (

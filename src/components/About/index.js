@@ -25,9 +25,9 @@ const About = ({ t }) => {
   return (
     <section className={styles.container} id="about">
       <div className={styles.content}>
-        <h2>{title}</h2>
-        <p>{text}</p>
-        <div className={styles.buttons}>
+        <h2 className="animate">{title}</h2>
+        <p className="animate">{text}</p>
+        <div className={`animate ${styles.buttons}`}>
           {buttons.map((button, id) => (
             <button key={id} onClick={() => handleOpen(id)}>
               {button}
@@ -36,7 +36,7 @@ const About = ({ t }) => {
           ))}
         </div>
       </div>
-      <div className={styles.imageContainer}>
+      <div className={`animate ${styles.imageContainer}`}>
         <div className={styles.image}>
           <ImageUploader
             src={hacker}

@@ -10,7 +10,7 @@ const Studies = ({ t }) => {
       <div className={`${styles.content} scroll`}>
         <div className={styles.cards}>
           {cards.map((card, index) => (
-            <div className={styles.card} key={index}>
+            <div className={`animate ${styles.card}`} key={index}>
               <h4>{card.title}</h4>
               <ul>
                 {card.info.map((info) => (

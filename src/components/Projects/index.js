@@ -7,10 +7,10 @@ const Projects = ({ t }) => {
 
   return (
     <section className={styles.container} id="projects">
-      <h2>{title}</h2>
+      <h2 className="animate">{title}</h2>
       <div className={styles.projects}>
         {projects.map((el, index) => (
-          <div key={index} className={styles.project}>
+          <div key={index} className={`animate ${styles.project}`}>
             <div className={styles.image}>
               <Link
                 key={index}
