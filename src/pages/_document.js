@@ -14,6 +14,11 @@ export default function Document() {
         />
         <Main />
         <NextScript />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `function callback(entries, observer) { entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add("fadeInUp"); observer.unobserve(entry.target); } }); } const options = { root: null, rootMargin: "0px", threshold: 0.4 }; const observer = new IntersectionObserver(callback, options); document.querySelectorAll(".animate").forEach((e) => observer.observe(e));`,
+          }}
+        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-1P7WQNQ9R4"
           strategy="afterInteractive"
