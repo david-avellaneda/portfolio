@@ -77,7 +77,7 @@ export default {
       },
       about: {
         title: "Sobre mí",
-        text: "Me llamo David Santiago, tengo 18 años, originario de Bogotá, Colombia. Me apasiona el desarrollo de soluciones tecnológicas que mejoren la experiencia del usuario y ofrezcan resultados eficientes a los clientes.",
+        text: "Me llamo David Santiago, tengo 19 años, originario de Bogotá, Colombia. Me apasiona el desarrollo de soluciones tecnológicas que mejoren la experiencia del usuario y ofrezcan resultados eficientes a los clientes.",
         buttons: ["Estudios", "Experiencia"],
         img: {
           alt: "Ilustración de hacker en 3D",

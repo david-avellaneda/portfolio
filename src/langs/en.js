@@ -74,7 +74,7 @@ export default {
       },
       about: {
         title: "About me",
-        text: "My name is David Santiago, I am 18 years old, originally from Bogotá, Colombia.. I am passionate about developing technological solutions that improve the user experience and offer efficient results to clients.",
+        text: "My name is David Santiago, I am 19 years old, originally from Bogotá, Colombia.. I am passionate about developing technological solutions that improve the user experience and offer efficient results to clients.",
         buttons: ["Studies", "Experience"],
         img: {
           alt: "Hacker 3D illustration",
