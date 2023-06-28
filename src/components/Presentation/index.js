@@ -7,7 +7,15 @@ const Presentation = ({ t }) => {
 
   return (
     <section className={styles.container}>
-      <div className={styles.image}></div>
+      <div className={styles.image}>
+        <Image
+          src="/presentation/david-avellaneda.jpg"
+          alt="David Santiago Avellaneda Montero"
+          width={1599}
+          height={899}
+          quality={100}
+        />
+      </div>
       <div className={styles.background}></div>
       <div className={styles.content}>
         <h1 className={styles.title}>
